@@ -10,6 +10,6 @@ On the Windows PC where Sage 50 US runs, open **PowerShell as Administrator** an
 irm https://github.com/apideck-io/Apideck-Sage-50-Connect-Windows-Exe/releases/latest/download/install.ps1 | iex
 ```
 
-It asks for your pairing code (from Apideck) and your Sage 50 company. Then open Sage 50 on that company and choose **Always Allow** when Sage asks about "Apideck Sage 50 Agent".
+It asks for your pairing code (from Apideck) and your Sage 50 company. Then open Sage 50 on that company and choose **Always Allow** when Sage asks about "Apideck Sage 50 connector".
 
-The agent updates itself. Every release is signed by Apideck, and the agent refuses files without that signature.
+The connector updates itself. Every release is signed by Apideck, and the connector refuses files without that signature.
